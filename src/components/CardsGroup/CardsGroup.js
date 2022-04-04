@@ -1,11 +1,8 @@
 import React from 'react';
 import { CardGroup } from 'react-bootstrap';
-import useData from '../../hooks/useData';
 import SingleCard from '../SingleCard/SingleCard';
 
-const CardsGroup = (props) => {
-
-    const [users] = useData();
+const CardsGroup = ({ users }) => {
 
     return (
         <div>

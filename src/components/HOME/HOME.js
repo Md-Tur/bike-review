@@ -6,7 +6,7 @@ import Bike from '../../images/bike.jpg';
 import { useNavigate } from 'react-router';
 
 const Home = () => {
-    const [users, setUsers] = useData();
+    const [users] = useData();
 
     let navigate = useNavigate();
     function handleClick() {
@@ -30,7 +30,9 @@ const Home = () => {
             <div className='customer-review-section'>
                 <h2>Customer Reviews</h2>
                 <h3>Reviewers: {users.length}</h3>
-                <CardsGroup users={users}></CardsGroup>
+                <CardsGroup
+                    users={users}
+                ></CardsGroup>
                 <button className='review-details-btn' onClick={handleClick}>See All Reviews</button>
             </div>
         </div>
