@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 
 const useData = () => {
-    const [user, setUser] = useState([]);
+    const [users, setUsers] = useState([]);
     useEffect(() => {
         fetch('userdb.json')
             .then(res => res.json())
-            .then(data => setUser(data));
+            .then(data => setUsers(data));
     }, [])
-    return [user, setUser];
+    return [users, setUsers];
 }
 export default useData;

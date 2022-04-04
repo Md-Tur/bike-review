@@ -2,6 +2,12 @@
     color: crimson;
 }
 
+.product-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 15px;
+}
+
 .live-demo {
     border: none;
     border-radius: 5px;
@@ -9,6 +15,11 @@
     padding: 15px 30px;
     color: blue;
     background-color: rgba(204, 204, 238, 0.747);
+}
+
+.customer-review-section {
+    margin: 15px;
+    padding: 10px;
 }
 
 .review-details-btn {
