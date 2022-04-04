@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Bike Review Site
+This a project on bike review. where any bike users can share his experience or opinion about a bike. Everyone is free to explore their review here.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live site link: [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
