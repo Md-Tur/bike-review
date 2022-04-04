@@ -19,7 +19,7 @@ const Home = () => {
                 <div>
                     <h3>It could be your best product</h3>
                     <h3 className='tagline'>With good value for money</h3>
-                    <p>choose it and save money.</p>
+                    <p>Here is your dream bike. It will best suits with you. Now a days it's trending in market. It's stylish and also user friendly for all. choose it and save money.</p>
                     <button className='live-demo'>Live Demo</button>
                 </div>
                 <div>
