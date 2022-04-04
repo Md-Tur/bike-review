@@ -1,7 +1,10 @@
 import React from 'react';
+import useData from '../../hooks/useData';
 import './Home.css';
 
 const Home = () => {
+    const [user] = useData();
+
     return (
         <div>
             <div>
@@ -18,7 +21,8 @@ const Home = () => {
 
             <div>
                 <h2>Customer Reviews</h2>
-                <button className='review-details'>See All Reviews</button>
+                <h3>Reviewer: {user.length}</h3>
+                <button className='review-details-btn'>See All Reviews</button>
             </div>
         </div>
     );
