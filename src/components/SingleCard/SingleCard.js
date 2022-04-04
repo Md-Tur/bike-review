@@ -1,15 +1,16 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import './SingleCard.css';
 
 const SingleCard = ({ user }) => {
 
     const { name, comment, rating } = user;
     return (
-        <Card>
+        <Card className='single-card'>
             <Card.Body>
-                <Card.Title>{name}</Card.Title>
+                <Card.Title style={{ fontWeight: 'bold' }}>Name: {name}</Card.Title>
                 <Card.Text>
-                    {comment}
+                    Comment: {comment}
                 </Card.Text>
             </Card.Body>
             <Card.Footer>
