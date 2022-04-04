@@ -1,9 +1,9 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
-const SingleCard = (props) => {
+const SingleCard = ({ user }) => {
 
-    const { name, comment, rating } = props.user;
+    const { name, comment, rating } = user;
     return (
         <Card>
             <Card.Body>
