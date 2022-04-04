@@ -3,6 +3,12 @@ This a project on bike review. where any bike users can share his experience or 
 
 Live site link: [Create React App](https://github.com/facebook/create-react-app).
 
+## How this project created?
+* using react
+* using rechart
+* using react-bootstrap
+* some vanilla css
+
 ## Available Scripts
 
 In the project directory, you can run:
