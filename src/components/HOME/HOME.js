@@ -9,7 +9,7 @@ const Home = () => {
     const [users] = useData();
 
     let navigate = useNavigate();
-    function handleClick() {
+    function handleReviewButton() {
         navigate('/reviews')
     }
 
@@ -33,7 +33,7 @@ const Home = () => {
                 <CardsGroup
                     users={users}
                 ></CardsGroup>
-                <button className='review-details-btn' onClick={handleClick}>See All Reviews</button>
+                <button className='review-details-btn' onClick={handleReviewButton}>See All Reviews</button>
             </div>
         </div>
     );
