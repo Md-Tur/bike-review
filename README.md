@@ -1,7 +1,7 @@
 # Bike Review Site
 This a project on bike review. where any bike users can share his experience or opinion about a bike. Everyone is free to explore their review here.
 
-Live site link: [Create React App](https://github.com/facebook/create-react-app).
+Live site: [Bike Review Site](https://lively-valkyrie-fc8159.netlify.app).
 
 ## How this project created?
 * using react
