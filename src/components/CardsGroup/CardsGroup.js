@@ -3,7 +3,8 @@ import { CardGroup } from 'react-bootstrap';
 import useData from '../../hooks/useData';
 import SingleCard from '../SingleCard/SingleCard';
 
-const CardsGroup = () => {
+const CardsGroup = (props) => {
+
     const [users] = useData();
 
     return (
@@ -16,7 +17,7 @@ const CardsGroup = () => {
                     ></SingleCard>)
                 }
             </CardGroup>
-        </div>
+        </div >
     );
 };
 

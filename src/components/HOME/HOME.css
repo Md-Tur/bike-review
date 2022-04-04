@@ -17,6 +17,11 @@
     background-color: rgba(204, 204, 238, 0.747);
 }
 
+.product-section img {
+    height: 250px;
+    width: 300px;
+}
+
 .customer-review-section {
     margin: 15px;
     padding: 10px;
